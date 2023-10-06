@@ -15,16 +15,16 @@
                 <nav>
                     <ul>
                         <li class="nav">
-                            <a href="#" class="outline">Inicio</a>
+                            <a href="#inicio" class="outline">Inicio</a>
                         </li>
                         <li class="nav">
-                            <a href="#" class="outline">Agentes</a>
+                            <a href="#agentes" class="outline">Agentes</a>
                         </li>
                         <li class="nav">
-                            <a href="#" class="outline">Acerca de</a>
+                            <a href="#acercade" class="outline">Acerca de</a>
                         </li>
                         <li class="nav">
-                            <a href="#" class="outline">Contacto</a>
+                            <a href="#contacto" class="outline">Contacto</a>
                         </li>
                     </ul>
                 </nav>
@@ -32,7 +32,7 @@
         </div>
     </header>
 
-    <section class="showcase">
+    <section id="inicio" class="showcase">
         <div class="Container">
             <div class="grid">
                 <div class="grid-item-1">
@@ -45,8 +45,8 @@
                     <div class="showcase-form">
                         <form action="">
                             <input type="email" placeholder="ejemplo@gmail.com">
-                            <input type="submit" class="btn" value="Contactar">
-                            <p>Contáctanos a través de este formulario</p>
+                            <input type="submit" class="btn" value="Registrarse">
+                            <p>Registrate a través de este formulario</p>
                         </form>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section class="lower-container container">
+    <section id="agentes" class="lower-container container">
         <section class="services">
             <div class="flex">
                 <div class="service">
@@ -89,7 +89,16 @@
         </section>
     </section>
 
-    <section class="testimonials">
+    <section id="acercade" class="lower-container container">
+        <div class="Container">
+            <h2>Acerca de Valorant</h2>
+            <p>
+                Valorant es un emocionante juego de disparos táctico en primera persona desarrollado por Riot Games. El juego combina una jugabilidad estratégica con personajes únicos llamados "agentes", cada uno con habilidades especiales que pueden cambiar el rumbo de la partida. Valorant se ha convertido en uno de los juegos más populares en la comunidad de los deportes electrónicos y ofrece una experiencia de juego competitiva y emocionante.
+            </p>
+        </div>
+    </section>
+
+<section class="testimonials">
         <div class="container">
             <div class="testimonials grid-3">
                 <div class="card">
@@ -125,9 +134,26 @@
         </div>
     </section>
 
+ <section id="contacto" class="lower-container container">
+        <div class="Container">
+            <h2>Contacto</h2>
+            <p>
+                ¿Tienes alguna pregunta o comentario sobre Valorant? ¡No dudes en ponerte en contacto con nosotros! Estamos aquí para ayudarte. Puedes enviarnos un mensaje a través del formulario de contacto a continuación.
+            </p>
+            <form action="">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo electrónico">
+                <textarea placeholder="Mensaje"></textarea>
+                <input type="submit" class="btn" value="Enviar mensaje">
+            </form>
+        </div>
+    </section>
+
+    
+
     <footer>
         <div class="Container">
-            <p>Derechos de autor © 2023 Valorant</p>
+            <p>Derechos de autor 2023 Valorant</p>
         </div>
     </footer>
 </body>
